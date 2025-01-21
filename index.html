@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Store</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>PARVEEN`S Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-list">
+            <h2>Our Products</h2>
+            <div class="product">
+                <img src="assset/nidra.jpg" alt="renatus nidra">
+                <h3>Renatus Nidra</h3>
+                <p class="price">$19.99</p>
+                <button class="add-to-cart" data-product="1">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assset/renatus body mist.jpg" alt="Product 2">
+                <h3>Renatus Body Mist</h3>
+                <p class="price">$29.99</p>
+                <button class="add-to-cart" data-product="2">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assset/renatus alosteen.jpg" alt="Product 3">
+                <h3>Renatus Alosteen</h3>
+                <p class="price">$39.99</p>
+                <button class="add-to-cart" data-product="3">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Product Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
